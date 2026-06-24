@@ -1,2 +1,2 @@
-GET http://localhost:3000/api/sync
+GET https://updev-app.vercel.app/api/sync
 Authorization: Bearer my-secret-key
