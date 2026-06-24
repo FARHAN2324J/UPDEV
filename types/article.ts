@@ -1,6 +1,6 @@
 export type ArticleInput = {
   title: string;
-  description?: string;
+  description?: string | null;
   url: string;
   category: string;
   source: string;

@@ -1,6 +1,9 @@
+import Parser from "rss-parser";
 import { ArticleInput } from "@/types/article";
 
-export function mapRssToArticle(item: any): ArticleInput {
+type RSSItem = Parser.Item;
+
+export function mapRssToArticle(item: RSSItem): ArticleInput {
   return {
     title: item.title ?? "",
     description: item.contentSnippet ?? null,
