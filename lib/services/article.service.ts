@@ -1,5 +1,5 @@
 import { prisma } from "@/lib/prisma";
-import { ArticleInput } from "@/types/article";
+import { ArticleProps } from "@/types/article";
 
 export async function getArticles() {
   return prisma.article.findMany({
@@ -17,7 +17,7 @@ export async function getArticleByUrl(url: string) {
   });
 }
 
-export async function createArticle(data: ArticleInput) {
+export async function createArticle(data: ArticleProps) {
   return prisma.article.upsert({
     where: {
       url: data.url,

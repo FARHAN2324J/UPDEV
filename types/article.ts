@@ -1,4 +1,4 @@
-export type ArticleInput = {
+export type ArticleProps = {
   title: string;
   description?: string | null;
   url: string;
