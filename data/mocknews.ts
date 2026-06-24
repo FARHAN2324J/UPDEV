@@ -1,4 +1,4 @@
-import { News } from "../types/news";
+import { News } from "../types/article";
 
 export const mockNews: News[] = [
   {

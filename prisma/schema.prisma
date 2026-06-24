@@ -1,0 +1,34 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Get a free hosted Postgres database in seconds: `npx create-db`
+
+generator client {
+  provider = "prisma-client-js"
+  engineType = "binary"
+}
+
+datasource db {
+  provider  = "postgresql"
+}
+
+model Article {
+  id          String   @id @default(cuid())
+
+  title       String
+
+  description String?
+
+  url         String   @unique
+
+  category    String
+
+  source      String
+
+  publishedAt DateTime
+
+  createdAt   DateTime @default(now())
+
+  @@index([category])
+  @@index([publishedAt(sort: Desc)])
+}

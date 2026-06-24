@@ -1,5 +1,5 @@
 import { mockNews } from "../data/mocknews";
-import NewsCard from "./NewsCard";
+import NewsCard from "./NewsArticle";
 
 export default function NewsList() {
     return (

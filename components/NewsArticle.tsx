@@ -1,9 +1,9 @@
-import { News } from "../types/news";
+import { ArticleInput } from "@/types/article";
 
-export default function NewsCard({
+export default function NewsArticle({
     news,
 }: {
-    news: News;
+    news: ArticleInput;
 }) {
     return (
         <article className="border-2 bg-[#0d0d0d] border-[#252525] rounded-[34px] p-6 m-4">
@@ -32,7 +32,7 @@ export default function NewsCard({
                     rel="noopener noreferrer"
                 >
                     <svg
-                        className="w-10 h-10 text-[#a1a1a1] border-t-2 border-b border-[#3d3d3d] bg-[#151515] rounded-full p-2 cursor-pointer"
+                        className="w-10 h-10 text-[#a1a1a1] border-t-2 border-b border-[#515151a6] bg-[#151515] rounded-full p-2 cursor-pointer"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
