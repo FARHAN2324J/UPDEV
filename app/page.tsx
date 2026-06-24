@@ -1,11 +1,11 @@
 import Hero from "@/components/Hero";
-import NewsList from "@/components/NewsList";
+import NewsArticle from "@/components/NewsArticle";
 
 export default function Home() {
   return (
     <main>
       <Hero />
-      <NewsList />
+      <NewsArticle />
     </main>
   );
 }
