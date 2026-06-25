@@ -23,8 +23,6 @@ model Article {
 
   category    String
 
-  source      String
-
   publishedAt DateTime
 
   createdAt   DateTime @default(now())

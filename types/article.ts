@@ -3,6 +3,5 @@ export type ArticleProps = {
   description?: string | null;
   url: string;
   category: string;
-  source: string;
   publishedAt: Date;
 };

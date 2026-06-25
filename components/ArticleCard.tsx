@@ -20,6 +20,7 @@ export default function ArticleCard({ article }: ArticleCardProps) {
                 year: "numeric",
             }
         );
+        
     return (
         <article className="article-card">
             <div className="mb-3">
