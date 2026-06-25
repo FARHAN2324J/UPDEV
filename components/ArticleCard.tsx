@@ -5,18 +5,29 @@ type ArticleCardProps = {
 };
 
 export default function ArticleCard({ article }: ArticleCardProps) {
-    const hasDescription = article.description?.trim();
+    const hasDescription =
+        Boolean(article.description?.trim());
+
+    const publishedAt =
+        new Date(article.publishedAt);
+
+    const publishedDate =
+        publishedAt.toLocaleDateString(
+            "en-US",
+            {
+                day: "numeric",
+                month: "short",
+                year: "numeric",
+            }
+        );
     return (
         <article className="article-card">
             <div className="mb-3">
                 <time
-                    dateTime={new Date(article.publishedAt).toISOString()} className="article-date"
+                    dateTime={publishedAt.toISOString()}
+                    className="article-date"
                 >
-                    {new Date(article.publishedAt).toLocaleDateString("en-US", {
-                        day: "numeric",
-                        month: "short",
-                        year: "numeric",
-                    })}
+                    {publishedDate}
                 </time>
             </div>
 
