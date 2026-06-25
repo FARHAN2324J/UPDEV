@@ -102,6 +102,9 @@
     bg-[#151515]
     rounded-full
     p-2
-    cursor-pointer;
+    cursor-pointer duration-300 transition-colors;
+  }
+  .icon-link:hover {
+    color: var(--primary);
   }
 }

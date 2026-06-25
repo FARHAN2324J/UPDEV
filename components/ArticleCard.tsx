@@ -5,6 +5,7 @@ type ArticleCardProps = {
 };
 
 export default function ArticleCard({ article }: ArticleCardProps) {
+    const hasDescription = article.description?.trim();
     return (
         <article className="article-card">
             <div className="mb-3">
@@ -23,9 +24,11 @@ export default function ArticleCard({ article }: ArticleCardProps) {
                 {article.title}
             </h2>
 
-            <p className="article-description">
-                {article.description}
-            </p>
+            {hasDescription && (
+                <p className="article-description">
+                    {article.description}
+                </p>
+            )}
 
             <div className="flex items-center justify-between mt-auto">
                 <span className="rounded-md bg-[#bf7aef]/15 px-2 py-0.5 text-[14px] font-semibold text-[#bf7aef] border-2 border-[#bf7aef]/15">
