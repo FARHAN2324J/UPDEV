@@ -1,5 +1,4 @@
-export const dynamic = "force-dynamic";
-
+export const revalidate = 0;
 import Hero from "@/components/Hero";
 import { getArticles } from "@/lib/services/article.service";
 import ArticleList from "@/components/ArticleList";
