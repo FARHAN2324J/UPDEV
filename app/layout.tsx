@@ -13,10 +13,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "UPDEV — Stay up-to-date as a developer",
+  title: "UPDEV - Stay up-to-date as a developer",
 
   description:
-    "The latest news, releases, and updates from the modern web ecosystem — Next.js, React, Tailwind CSS, TypeScript, and more.",
+    "The latest news, releases, and updates from the modern web ecosystem Next.js, React, Tailwind CSS, TypeScript, and more.",
 
   applicationName: "UPDEV",
 
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   creator: "UPDEV",
 
   openGraph: {
-    title: "UPDEV — Stay up-to-date as a developer",
+    title: "UPDEV - Stay up-to-date as a developer",
 
     description:
       "The latest news, releases, and updates from the modern web ecosystem.",
