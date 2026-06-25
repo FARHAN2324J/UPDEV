@@ -13,13 +13,40 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "UPDEV — Stay an up-to-date developer",
+  title: "UPDEV — Stay up-to-date as a developer",
+
   description:
-    "The latest news, releases, and updates from the modern web ecosystem — Next.js, React, Tailwind, and more.",
+    "The latest news, releases, and updates from the modern web ecosystem — Next.js, React, Tailwind CSS, TypeScript, and more.",
+
+  applicationName: "UPDEV",
+
+  keywords: [
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "TypeScript",
+    "Web Development",
+    "Frontend",
+    "Developer News",
+  ],
+
+  authors: [
+    {
+      name: "UPDEV",
+    },
+  ],
+
+  creator: "UPDEV",
+
   openGraph: {
-    title: "UPDEV",
-    description: "Stay an up-to-date developer.",
+    title: "UPDEV — Stay up-to-date as a developer",
+
+    description:
+      "The latest news, releases, and updates from the modern web ecosystem.",
+
     type: "website",
+
+    siteName: "UPDEV",
   },
 };
 
