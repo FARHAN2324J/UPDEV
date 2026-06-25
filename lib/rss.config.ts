@@ -9,6 +9,6 @@ export const RSS_FEEDS = [
   },
   {
     category: "React",
-    url: "https://react.dev/blog/rss.xml",
+    url: "https://react.dev/rss.xml",
   },
 ];

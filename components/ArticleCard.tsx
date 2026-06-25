@@ -1,3 +1,4 @@
+import { categoryClass } from "@/lib/utils/categoryStyle";
 import { ArticleProps } from "@/types/article";
 
 type ArticleCardProps = {
@@ -43,7 +44,7 @@ export default function ArticleCard({ article }: ArticleCardProps) {
             )}
 
             <div className="flex items-center justify-between mt-auto">
-                <span className="rounded-md bg-[#bf7aef]/15 px-2 py-0.5 text-[14px] font-semibold text-[#bf7aef] border-2 border-[#bf7aef]/15">
+                <span className={`badge ${categoryClass(article.category)}`}>
                     {article.category}
                 </span>
 
