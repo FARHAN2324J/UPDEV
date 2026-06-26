@@ -1,3 +1,4 @@
+import { revalidatePath } from "next/cache";
 import { syncArticles } from "@/lib/services/article-sync.service";
 
 export async function GET(request: Request) {
@@ -15,6 +16,8 @@ export async function GET(request: Request) {
   }
 
   const result = await syncArticles();
+
+  revalidatePath("/");
 
   return Response.json(result);
 }
