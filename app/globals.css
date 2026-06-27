@@ -72,11 +72,11 @@
   }
 
   .article-title {
-    @apply mb-2 text-[20px] font-semibold text-text;
+    @apply mb-2 text-[20px] font-semibold text-text leading-6.5;
   }
 
   .article-description {
-    @apply font-medium text-text-muted line-clamp-2 mb-4;
+    @apply font-medium text-text-muted line-clamp-2 mb-4 leading-5.5;
   }
 
   .article-category {

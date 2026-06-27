@@ -8,3 +8,8 @@ export type ArticleProps = {
 };
 
 export type CreateArticleInput = Omit<ArticleProps, "id">;
+
+export type SyncResult = {
+  message: string;
+  saved: number;
+};
