@@ -1,2 +1,0 @@
-GET https://updev-app.vercel.app/api/sync
-Authorization: Bearer my-secret-key
