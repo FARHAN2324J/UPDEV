@@ -4,7 +4,7 @@ import { mapRssToArticle } from "../mappers/article.mapper";
 import { RSS_FEEDS } from "../rss.config";
 
 const parser = new Parser();
-const MIN_DATE = new Date("2025-01-01");
+const MIN_DATE = new Date("2026-01-01");
 
 export async function syncArticles() {
   let saved = 0;
