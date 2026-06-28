@@ -20,7 +20,7 @@ export default function CategoryFilter() {
                 }}
             >
                 <Image
-                    src="/logo.svg"
+                    src="/Logo.svg"
                     alt="UPDEV"
                     width={40}
                     height={40}
