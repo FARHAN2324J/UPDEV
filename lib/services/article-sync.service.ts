@@ -54,6 +54,7 @@ async function syncFeed(rssFeed: RssFeed) {
     return 0;
   }
 }
+
 export async function syncArticles(): Promise<SyncResult> {
   let saved = 0;
 
