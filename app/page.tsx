@@ -27,7 +27,7 @@ export default async function Home({ searchParams }: HomeProps) {
 
   return (
     <>
-      <header className="navbar-wrapper px-3 sm:px-4">
+      <header className="navbar-wrapper px-3 sm:px-4 sm:w-fit w-full">
         <CategoryFilter />
       </header>
       <main>
