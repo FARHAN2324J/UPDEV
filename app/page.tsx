@@ -2,7 +2,6 @@ import Hero from "@/components/Hero";
 import { getArticlesTotalPages, getArticles } from "@/lib/services/article.service";
 import ArticleList from "@/components/ArticleList";
 import Pagination from "@/components/Pagination";
-import CategoryFilter from "@/components/Navbar/CategoryFilter";
 
 type HomeProps = {
   searchParams: Promise<{
