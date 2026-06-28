@@ -11,13 +11,26 @@ export async function GET(request: Request) {
       },
       {
         status: 401,
-      }
+      },
     );
   }
 
-  const result = await syncArticles();
+  try {
+    const result = await syncArticles();
 
-  revalidatePath("/");
+    revalidatePath("/");
 
-  return Response.json(result);
+    return Response.json(result);
+  } catch (error) {
+    console.error("Sync failed:", error);
+
+    return Response.json(
+      {
+        message: "Internal Server Error",
+      },
+      {
+        status: 500,
+      },
+    );
+  }
 }
