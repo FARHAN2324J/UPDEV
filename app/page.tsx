@@ -26,19 +26,16 @@ export default async function Home({ searchParams }: HomeProps) {
   const totalPages = await getArticlesTotalPages(category);
 
   return (
-    <>
-      <header className="navbar-wrapper px-3 sm:px-4 sm:w-fit w-full">
-        <CategoryFilter />
-      </header>
-      <main>
-        <Hero />
+    <main>
+      <Hero />
 
-        <ArticleList articles={articles} />
+      <CategoryFilter />
 
-        {totalPages > 1 && (
-          <Pagination totalPages={totalPages} />
-        )}
-      </main>
-    </>
+      <ArticleList articles={articles} />
+
+      {totalPages > 1 && (
+        <Pagination totalPages={totalPages} />
+      )}
+    </main>
   );
 }

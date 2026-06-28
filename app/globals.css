@@ -51,28 +51,6 @@
 }
 
 @layer components {
-  .navbar-wrapper {
-    position: fixed;
-    top: 1rem;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 100;
-  }
-
-  .navbar { 
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-    height: 4rem;
-    padding: 0 1rem;
-    background: rgba(255, 255, 255, 0.08);
-    border-radius: 999px;
-    -webkit-backdrop-filter: blur(8px) saturate(180%);
-    backdrop-filter: blur(8px) saturate(180%);
-    border: 2px solid #3e3e3e;
-  }
-
   .hero-title {
     @apply text-center text-6xl font-bold text-text;
   }

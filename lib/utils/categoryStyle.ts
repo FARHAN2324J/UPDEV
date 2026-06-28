@@ -7,6 +7,6 @@ export function categoryClass(category: string) {
 
   return (
     styles[category] ||
-    "bg-gray-500/10 text-gray-400 border-gray-500/20"
+    "text-text border-text"
   );
 }

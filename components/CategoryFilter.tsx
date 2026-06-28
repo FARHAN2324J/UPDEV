@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { CATEGORIES } from "@/lib/constants/categories";
-import Image from "next/image";
+import { categoryClass } from "@/lib/utils/categoryStyle";
 
 export default function CategoryFilter() {
     const searchParams = useSearchParams();
@@ -12,45 +12,31 @@ export default function CategoryFilter() {
         searchParams.get("category") || "All";
 
     return (
-        <nav className="navbar">
-            <Link
-                href="/"
-                onClick={() => {
-                    window.scrollTo({ top: 0, behavior: "smooth" });
-                }}
-            >
-                <Image
-                    src="/Logo.svg"
-                    alt="UPDEV"
-                    width={40}
-                    height={40}
-                    priority
-                    className="h-9 w-9 sm:h-10 sm:w-10 mr-8"
-                />
-            </Link>
-            <div className="flex items-center gap-5 mx-auto">
-                {CATEGORIES.map((category) => {
-                    const isActive = currentCategory === category;
+        <div className="flex items-center gap-4 justify-center">
+            {CATEGORIES.map((category) => {
+                const isActive = currentCategory === category;
 
-                    const href =
-                        category === "All"
-                            ? "/"
-                            : `/?category=${category}`;
+                const href =
+                    category === "All"
+                        ? "/"
+                        : `/?category=${category}`;
 
-                    return (
-                        <Link
-                            key={category}
-                            href={href}
-                            className={`font-medium transition-colors duration-200 md:text-[16px] text-[14px] ${isActive
-                                ? "text-text"
-                                : "text-text-muted hover:text-text"
-                                }`}
-                        >
-                            {category}
-                        </Link>
-                    );
-                })}
-            </div>
-        </nav>
+                return (
+                    <Link
+                        key={category}
+                        href={href}
+                        className={` badge
+        ${categoryClass(category)}
+       ${isActive
+                                ? "brightness-100 saturate-150"
+                                : "opacity-50"
+                            }
+    `}
+                    >
+                        {category}
+                    </Link>
+                );
+            })}
+        </div>
     );
 }
