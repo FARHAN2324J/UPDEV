@@ -41,7 +41,7 @@ export default function CategoryFilter() {
                         <Link
                             key={category}
                             href={href}
-                            className={`font-medium transition-colors duration-200 md:text-[16px] text-[13px] ${isActive
+                            className={`font-medium transition-colors duration-200 md:text-[16px] text-[14px] ${isActive
                                 ? "text-text"
                                 : "text-text-muted hover:text-text"
                                 }`}
