@@ -11,7 +11,7 @@ export default function CategoryFilter() {
         searchParams.get("category") || "All";
 
     return (
-        <nav className="flex items-center gap-4">
+        <nav className="navbar h-14 sm:h-16 w-full max-w-225 md:max-w-205 lg:max-w-225">
             {CATEGORIES.map((category) => {
                 const isActive = currentCategory === category;
 
@@ -25,8 +25,8 @@ export default function CategoryFilter() {
                         key={category}
                         href={href}
                         className={`font-medium transition-colors duration-200 md:text-[16px] text-[14px] ${isActive
-                                ? "text-text"
-                                : "text-text-muted hover:text-text"
+                            ? "text-text"
+                            : "text-text-muted hover:text-text"
                             }`}
                     >
                         {category}
