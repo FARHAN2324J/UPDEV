@@ -21,7 +21,7 @@ UPDEV solves this by collecting the latest articles and updates from popular tec
 
 - 📰 Aggregated RSS feeds
 - 🗂️ Filter articles by category
-- 📄 Pagination - browse through a clean, paginated feed
+- 📄 Pagination: browse through a clean, paginated feed
 - 🔍 Clean and intuitive reading experience
 - 🌐 Deployed on Vercel
 
