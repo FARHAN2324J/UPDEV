@@ -11,9 +11,9 @@ A platform that brings together the latest articles and updates from popular tec
 
 ## About
 
-Every day, new updates and blog posts are published on the official websites of different technologies.
+Every day, new updates and blog posts are published on popular technology websites.
 
-Keeping up meant constantly switching between multiple websites, wasting time, and still missing important updates.
+Keeping up often meant switching between multiple websites, wasting time, and still missing important updates.
 
 UPDEV solves this by collecting the latest articles and updates from popular technology websites into a single, clean, and organized platform.
 
