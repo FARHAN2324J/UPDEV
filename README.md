@@ -74,8 +74,8 @@ npm install
 Create a `.env` file in the project root:
 
 ```env
-DATABASE_URL=
-DIRECT_URL=
+DATABASE_URL="postgresql://USER:PASSWORD@HOST:PORT/DATABASE"
+DIRECT_URL="postgresql://USER:PASSWORD@HOST:PORT/DATABASE"
 ```
 
 Fill in the values with your own Supabase database credentials.
@@ -109,6 +109,6 @@ Feel free to open an issue or submit a pull request.
 
 - GitHub: [FARHAN2324J](https://github.com/FARHAN2324J)
 - LinkedIn: [Farhan Fadaei](https://www.linkedin.com/in/farhan-fadaei)
-- Portfolio: [portfolio](https://farhan2324j.github.io/FarhanFadaei/)
-- Telegram: @Feri3044
+- Portfolio: [Portfolio](https://farhan2324j.github.io/FarhanFadaei/)
+- Telegram: [@Feri3044](https://t.me/Feri3044)
 
