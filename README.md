@@ -4,7 +4,7 @@
 
 > Stay up to date with the latest technology news in one place.
 
-A platform that brings together the latest articles and updates from trusted technology websites, making it easier to stay informed without jumping between multiple websites.
+A platform that brings together the latest articles and updates from popular technology websites, making it easier to stay informed without jumping between multiple websites.
 
 🌐 Live Demo: https://updev-app.vercel.app/
 
