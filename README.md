@@ -15,7 +15,7 @@ Every day, new updates and blog posts are published on the official websites of 
 
 Keeping up meant constantly switching between multiple websites, wasting time, and still missing important updates.
 
-UPDEV solves this by collecting the latest articles and updates from popular technology websites into one clean and organized platform.
+UPDEV solves this by collecting the latest articles and updates from popular technology websites into a single, clean, and organized platform.
 
 ##  Features
 
