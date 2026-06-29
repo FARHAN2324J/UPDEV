@@ -41,7 +41,7 @@ UPDEV solves this by collecting the latest articles and updates from popular tec
 UPDEV/
 ├── app/               # Next.js App Router (pages, layouts, routes)
 ├── components/        # Reusable React components
-├── lib/               # Utility functions, RSS fetching logic, constants
+├── lib/               # Utility functions, RSS fetching logic, and constants
 ├── prisma/            # Prisma schema and migrations
 ├── public/            # Static assets
 ├── types/             # TypeScript type definitions
