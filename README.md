@@ -60,3 +60,12 @@ Contributions, issues, and feature requests are welcome!
 Feel free to open an issue or submit a pull request.
 
 
+## 👨‍💻 Author
+
+Farhan Fadaei
+
+- GitHub: https://github.com/FARHAN2324J
+- LinkedIn: https://www.linkedin.com/in/farhan-fadaei
+- Portfolio: https://farhan2324j.github.io/FarhanFadaei/
+
+
