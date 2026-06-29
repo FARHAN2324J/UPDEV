@@ -6,7 +6,7 @@
 
 A platform that brings together the latest articles and updates from trusted technology websites, making it easier to stay informed without jumping between multiple websites.
 
-🌐 Live Demo : [UPDEV](http://updev-app.vercel.app/)
+🌐 Live Demo: [UPDEV](http://updev-app.vercel.app/)
 
 
 ## About
@@ -21,7 +21,7 @@ UPDEV solves this by collecting the latest articles and updates from popular tec
 
 - 📰 Aggregated RSS feeds
 - 🗂️ Filter articles by category
-- 📄 Pagination — browse through a clean, paginated feed
+- 📄 Pagination - browse through a clean, paginated feed
 - 🔍 Clean and intuitive reading experience
 - 🌐 Deployed on Vercel
 
@@ -38,6 +38,9 @@ UPDEV solves this by collecting the latest articles and updates from popular tec
 | Data Source | RSS Feeds |
 | Deployment | Vercel |
 
+## Project Structure
+
+```text
 UPDEV/
 ├── app/               # Next.js App Router (pages, layouts, routes)
 ├── components/        # Reusable React components
@@ -48,11 +51,11 @@ UPDEV/
 ├── next.config.ts     # Next.js configuration
 ├── prisma.config.ts   # Prisma configuration
 └── vercel.json        # Vercel Cron Jobs configuration
-
+```
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome.
+Contributions, issues, and feature requests are welcome!
 
 Feel free to open an issue or submit a pull request.
 
