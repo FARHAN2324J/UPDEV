@@ -1,8 +1,9 @@
 # UPDEV
+> Stay up-to-date as a developer
 
 ![UPDEV Preview](./public/readme/updev.jpg)
 
-> Stay up-to-date as a developer
+
 
 
 🌐 Live Demo: [UPDEV](https://updev-app.vercel.app/)
