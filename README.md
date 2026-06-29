@@ -2,9 +2,8 @@
 
 ![UPDEV Preview](./public/readme/updev.jpg)
 
-> Stay up to date with the latest technology news in one place.
+> Stay up-to-date as a developer
 
-A platform that brings together the latest articles and updates from popular technology websites, making it easier to stay informed without jumping between multiple websites.
 
 🌐 Live Demo: [UPDEV](https://updev-app.vercel.app/)
 
