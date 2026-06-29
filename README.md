@@ -8,14 +8,13 @@
 
 🌐 Live Demo: [UPDEV](https://updev-app.vercel.app/)
 
-
 ## About
 
-Every day, new updates and blog posts are published on popular technology websites.
+Every day, new updates and blog posts are published across official technology sources.
 
 Keeping up often meant switching between multiple websites, wasting time, and still missing important updates.
 
-UPDEV solves this by collecting the latest articles and updates from trusted sources into a single, clean, and organized platform.
+UPDEV solves this by collecting the latest articles and updates from official technology sources into a single, clean, and organized platform.
 
 ##  Features
 
