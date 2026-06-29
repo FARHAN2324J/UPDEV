@@ -26,23 +26,17 @@ UPDEV solves this by collecting the latest articles and updates from popular tec
 - 🌐 Deployed on Vercel
 
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-### Frontend
-- Next.js 
-- TypeScript
-
-### Styling
-- Tailwind CSS
-
-### Database
-- Supabase 
-
-### ORM
-- Prisma
-
-### Data Source
-- RSS Feeds
+| Layer | Technology |
+|-------|------------|
+| Frontend | Next.js |
+| Language | TypeScript |
+| Styling | Tailwind CSS |
+| Database | Supabase (PostgreSQL) |
+| ORM | Prisma |
+| Data Source | RSS Feeds |
+| Deployment | Vercel |
 
 UPDEV/
 ├── app/               # Next.js App Router (pages, layouts, routes)
